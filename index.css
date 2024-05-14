@@ -47,6 +47,10 @@ body {
     margin-left: 1em;
     margin-bottom: 0.1em;
 }
+.leftnavigation a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 .navigation div{
 
@@ -75,6 +79,11 @@ body {
     list-style-type: none;
     align-items: center;
 }
+.rightnavigation .menu li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 
 
 .hamburger {
