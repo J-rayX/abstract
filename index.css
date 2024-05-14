@@ -175,7 +175,7 @@ body {
         position: fixed;
         height: 100%;
         width: 200px;
-        top: 0;
+        top: -1em;
         right: -200px;
         padding-top: 65px;
         padding-left: 0;
