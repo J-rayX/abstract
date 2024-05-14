@@ -81,7 +81,23 @@ body {
 }
 .rightnavigation .menu li a{
     text-decoration: none;
+    
+
     color: #ffffff;
+}
+
+.menu li a:nth-of-type(1){
+    padding: 0.5em 1em;
+    border: #ffffff 0.05em solid;
+    border-radius: 0.625em;
+    font-size: 1.5em;
+}
+.rightnavigation .menu li a:nth-of-type(2){
+    background: #4C5FD5;
+    padding: 0.5em 1em;
+    border: #4C5FD5 0.05em solid;
+    border-radius: 0.625em;
+    font-size: 1.5em;
 }
 
 
