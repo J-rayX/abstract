@@ -142,6 +142,7 @@ body {
 .hamburger,
 .toggle-menu {
     display: none;
+    top: 0.6em;
 }
 
 .rightnavigation input:checked ~ .hamburger{
