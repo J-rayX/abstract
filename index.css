@@ -247,14 +247,18 @@ div {
     position: relative;
     float: left;
     width: 50vw;
-    height: 4.2em;
+    /* height: 4.2em; */
     vertical-align: middle;
     border: #000000 1.5px solid;
     border-radius: 5px;
     box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
-    font-size: 20px;
+    font-size: 2.5em;
+    padding: 0.2em 0.4em;
+    box-sizing: border-box;
     font-weight: 400;
     margin: 0;
+    /* padding: 0; */
+
     box-sizing: border-box;
 }
 .search-input:focus{
@@ -263,7 +267,7 @@ div {
     position: absolute;
     right: auto;
     justify-content: flex-end;
-    right: 0;
+    right: 0.5em;
     float: right;
     float: left;
     vertical-align: middle;
