@@ -258,7 +258,6 @@ div {
     box-sizing: border-box;
     font-weight: 400;
     margin: 0;
-    /* padding: 0; */
 
     box-sizing: border-box;
 }
@@ -305,7 +304,6 @@ div {
 }
 
 .sections{
-
     display: flex;
     padding: 10vw 0;
     justify-content: center;
@@ -321,7 +319,6 @@ div {
 
 .section{
     display: flex;
-    background: #deacac;
     align-items:flex-start;
     padding-bottom: 1em; 
 }
@@ -330,7 +327,6 @@ div {
     max-height: 8em;
     margin-right: 1em;
 }
-
 .section-heading{
     font-size: 1.6em;
     font-weight: 700;
@@ -338,7 +334,7 @@ div {
 }
 .section-body{
     font-size: 1.5em;
-    /* margin-bottom: 0.7em; */
+    margin-bottom: 0.7em;
 }
 .section-text a{
     text-decoration: none;
@@ -349,19 +345,25 @@ div {
     .sections{
         display: flex;
         padding: 15vw 0;
-        justify-content: center;
         align-items: start;
-        height: 30vh;
+    }
+    .section{
+        display: flex;
+        flex-flow: column wrap;
+        align-items:flex-start;
+        padding-bottom: 1em; 
+    }
+    .section-logo img{
+        width: 5em;
+        height: 5em;
+        margin: 2em 0em 0.2em 0em;
     }
     .section-container{
         display: grid;
         grid-template-columns: 90%;
-        grid-auto-rows: 5%;
-        grid-row-gap: 150px;
-        justify-content: space-between;
-        align-items: start;
-        /* justify-items: start; */
+        grid-auto-rows: auto auto auto auto auto auto; /* Make grid row-gap even cross all grid items of uneven heights */
+        grid-row-gap: 20px;
+        justify-content: center;
     }
-/* .section-4{
-} */
+
 }
